@@ -1,0 +1,27 @@
+{
+  "name": "@globacap/temporal-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@temporalio/activity": "^1.9.0",
+    "@temporalio/client": "^1.9.0",
+    "@temporalio/worker": "^1.9.0",
+    "@temporalio/workflow": "^1.9.0",
+    "node-fetch": "^2.7.0",
+    "stripe": "^14.16.0"
+  }
+}
